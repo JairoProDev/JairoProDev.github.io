@@ -1,5 +1,27 @@
 * {
     background-color: #1a212d;
     color: azure;
-    font-size: 50px;
+    font-size: 120%;
+    
+}
+.content{
+ /* centrar vertical y horizontalmente */
+ position: absolute;
+
+ left: 5%;
+ right: 24%;
+
+ /* aplicar a top y al margen izquierdo un valor negativo para completar el centrado del elemento hijo */
+
+}
+.CTA {
+    width: 50%;
+
+}
+h1 {
+    font-size: 80px;
+    color: #9CF2D5
+}
+p {
+    color: #64ACFF;
 }
