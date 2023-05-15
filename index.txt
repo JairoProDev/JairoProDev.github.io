@@ -1,275 +1,240 @@
-Perosonal Blog Website
+JairoSaul - Personal Portfolio
 
-This is a blog html template made by codewithsadee
+# sidebar
 
+alt = Jairo Saul
+Jairo Saul
+Web developer
 
+Show Contacts
 
-#---------- HEADER ----------#
+Email
+Jairo@example.com
 
-alt =  logo
+Phone
++1 (213) 352-2795
 
-alt =  logo
+Birthday
+June 23, 1982
 
-aria-label = close menu
-<ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+Location
+Sacramento, California, USA
 
-Home
-Topics
-Featured Post
-Recent Post
+# navbar
+
+About
+Resume
+Portfolio
+Blog
 Contact
 
-alt = Steven
-Hello Steven !
-You have 3 new messages
+# about
 
-Profile
-Articles Saved
-Add New Post
+About me
 
-My Likes
-Account Setting
-Sign Out
+I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
 
-Copyright 2023 ©  - Personal Blog
-Developed by codewithsadee
-
-Subscribe
-
-aria-label = open menu
-<ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
 
 
+## service
 
-#---------- HERO ----------#
+What i'm doing
 
-Hello Everyone!
+alt = design icon
+Web design
+The most modern and high-quality design made at a professional level.
 
-I’m Jairo
+alt = Web development icon
+Web development
+High-quality development of sites at the professional level.
 
-I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.
+alt = mobile app icon
+Mobile apps
+Professional development of applications for iOS and Android.
 
-placeholder = Type your email address
-
-Subscribe
-<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-
-alt = Jairo
-
-alt = shape
-
+alt = camera icon
+Photography
+I make high-quality photos of any category at a professional level.
 
 
-#---------- TOPICS ----------#
+## testimonials
 
-Hot topics
+Testimonials
 
-Don't miss out on the latest news about Travel tips, Hotels review, Food guide...
+alt = Daniel lewis
+Daniel lewis
+Jairo was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
 
-aria-label = previous
-<ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+alt = Jessica miller
+Jessica miller
+Jairo was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
 
-aria-label = next
-<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+alt = Emily evans
+Emily evans
+Jairo was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
 
-Sport
-38 Articles
+alt = Henry william
+Henry william
+Jairo was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
 
-Travel
-63 Articles
 
+## clients
+
+Clients
+
+alt = client logo
+
+
+
+# resume
+
+Resume
+
+Education
+
+University school of the arts
+2007 — 2008
+Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+
+New york academy of art
+2006 — 2007
+Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis..
+
+High school of art and design
+2002 — 2004
+Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
+
+Experience
+
+Creative director
+2015 — Present
+Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.
+
+Art director
+2013 — 2015
+Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+
+Web designer
+2010 — 2013
+Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+
+My skills
+
+Web design
+80%
+Graphic design
+70%
+Branding
+90%
+WordPress
+50%
+
+
+
+# portfolio
+
+Portfolio
+
+All
+Web design
+Applications
+Web development
+
+Select category
+All
+Web design
+Applications
+Web development
+
+alt = finance
+Finance
+Web development
+
+alt = orizon
+Orizon
+Web development
+
+alt = fundo
+Fundo
+Web design
+
+alt = brawlhalla
+Brawlhalla
+Applications
+
+alt = dsm.
+DSM.
+Web design
+
+alt = metaspark
+MetaSpark
+Web design
+
+alt = summary
+Summary
+Web development
+
+alt = task manager
+Task Manager
+Applications
+
+alt = arrival
+Arrival
+Web development
+
+
+
+# blog
+
+Blog
+
+alt = Design conferences in 2022
 Design
-78 Articles
-
-Movie
-125 Articles
-
-Lifestyle
-78 Articles
-
-
-
-#---------- FEATURED POST ----------#
-
-Editor's picked
-Featured and highly rated articles
-
-alt = Self-observation is the first step of inner unfolding
-
-#Travel #Lifestyle
-
-<ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-3 mins read
-
-Self-observation is the first step of inner unfolding
-
-alt = Joseph
-Joseph
-25 Nov 2022
-
-Read more
-
-#Design #Movie
-6 mins read
-
-Show More Posts
-
-<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-
-
-
-#---------- POPULAR TAGS ----------#
-
-Popular Tags
-
-Most searched keywords
-
-Travel
-
-Culture
-
-Lifestyle
-
-Fashion
-
-Food
-
-Space
-
-Animal
-
-Minimal
-
-Interior
-
-Plant
-
-Nature
-
-Business
-
-
-
-#---------- RECENT POST ----------#
-
-Recent posts
-
-Don't miss the latest trends
-
-alt = Helpful Tips for Working from Home as a Freelancer
-
-Working Tips
-
-Helpful Tips for Working from Home as a Freelancer
-
-Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard roadrunner flapped lynx far that and jeepers giggled far and far
-
-# Travel
-# Lifestyle
-
-<ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-3 mins read
-
-aria-label = previous page
-<ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
-
-1
-2
-3
-
-aria-label = more page
-...
-
-aria-label = next page
-<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
- 
-Popular Posts
-
-Creating is a privilege but it’s also a gift
-
-15 mins read
-
-15 April 2022
-
-Being unique is better than being perfect
-
-Every day, in every city and town across the country
-
-Your voice, your mind, your story, your vision
-
-Last Comment
-
-“ Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard roadrunner “
-
-Jane Cooper
-15 April 2022
-
-Katen Doe
-
-Barbara Cartland
-
- logo
-
-Follow us on instagram
-
-alt = insta post
-
-
-
-#---------- FOOTER ----------#
-
- logo
-
-When an unknown prnoto sans took a galley and scrambled it to make specimen book not only five When an unknown prnoto sans took a galley and scrambled it to five centurie.
-
-Address
-
-123 Main Street
-New York, NY 10001
-
-Categories
-
-Action
-Business
-Adventure
-Canada
-America
-Curiosity
-Animal
-Dental
-Biology
+Fab 23, 2022
+Design conferences in 2022
+Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+
+alt = Best fonts every designer
 Design
-Breakfast
-Dessert
+Fab 23, 2022
+Best fonts every designer
+Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
 
-Newsletter
+alt = Design digest #80
+Design
+Fab 23, 2022
+Design digest #80
+Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
 
-Sign up to be first to receive the latest stories inspiring us, case studies, and industry news.
+alt = UI interactions of the week
+Design
+Fab 23, 2022
+UI interactions of the week
+Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
 
-placeholder = Your name
-<ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+alt = The forgotten art of spacing
+Design
+Fab 23, 2022
+The Forgotten Art Of Spacing
+Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-placeholder = Emaill address
-<ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
-
-Subscribe
-<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-
-&copy; Developed by codewithsadee.
-
-<ion-icon name="logo-twitter"></ion-icon>
-Twitter
-
-<ion-icon name="logo-linkedin"></ion-icon>
-LinkedIn
-
-<ion-icon name="logo-instagram"></ion-icon>
-Instagram
+alt = Design digest #79
+Design
+Fab 23, 2022
+Design Digest #79
+Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
 
 
 
-#---------- BACK TO TOP ----------#
+# contact
 
-aria-label = back to top
+Contact
 
-<ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+Contact Form
+
+Full name
+Email address
+Your Message
+
+Send Message
