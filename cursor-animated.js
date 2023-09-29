@@ -14,6 +14,19 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     }
   
+    function animateCursor() {
+      cursors.forEach((cursor) => {
+        cursor.classList.add("active");
+      });
+  
+      setTimeout(function() {
+        cursors.forEach((cursor) => {
+          cursor.classList.remove("active");
+        });
+        animateCursor(); // Llama a la función de nuevo para una animación continua
+      }, 1000); // La animación se repite cada 1 segundo
+    }
+  
     document.addEventListener("mousemove", function(e) {
       let x = e.clientX;
       let y = e.clientY;
@@ -47,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1000);
     });
   
-    activateCursor(); // Activa el cursor al cargar la página
+    animateCursor(); // Inicia la animación continua
   
     // Opcional: Desactiva el cursor después de cierto tiempo (en milisegundos)
     // setTimeout(deactivateCursor, 3000); // Desactivar después de 3 segundos (ajusta según tus preferencias)
