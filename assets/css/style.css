@@ -332,7 +332,7 @@ body.nav-active { overflow: hidden; }
   top: 0;
   left: 0;
   width: 100%;
-  padding-block: 24px;
+  padding-block: 8px;
   background-color: var(--bg-oxford-blue-2);
   z-index: 4;
 }
@@ -434,8 +434,6 @@ body.nav-active { overflow: hidden; }
 
 
 
-
-
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
@@ -456,7 +454,7 @@ body.nav-active { overflow: hidden; }
 
 .hero .section-title { margin-block: 20px; }
 
-.hero .hero-text { margin-block-end: 40px; }
+.hero .hero-text { margin-block-end: 10px; }
 
 .hero .input-wrapper:hover { box-shadow: var(--shadow-2); }
 
@@ -476,9 +474,12 @@ body.nav-active { overflow: hidden; }
 
 .hero-banner { position: relative; }
 
-.hero-banner .w-100 {
+.cartoon-me {
   max-width: max-content;
   margin-inline: auto;
+  width : 390px; 
+  margin-bottom: 10px;
+  
 }
 
 .hero .shape {
