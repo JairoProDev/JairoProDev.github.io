@@ -506,7 +506,9 @@ body.nav-active { overflow: hidden; }
 
 
 
-
+.links-inline{
+  display: inline;
+}
 
 /*-----------------------------------*\
   #TOPICS
