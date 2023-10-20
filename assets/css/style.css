@@ -1013,7 +1013,7 @@ body.nav-active { overflow: hidden; }
      * spacing
      */
 
-    --section-padding: 100px;
+    --section-padding: 0px;
 
   }
 
