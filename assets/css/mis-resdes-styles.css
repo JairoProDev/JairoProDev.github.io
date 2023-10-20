@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    flex-wrap: wrap; 
+
+}
+
+.wrapper .icon {
+    position: relative;
+    background: #fff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.2scubic-beizer(0.68, -0.55, cubic-bezier(0.68, -0.55, 0.265, 1.55));
+    font-size: 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0, 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .icon i {
+    transition: color 0.2s;
+}
+
+.wrapper .facebook i {
+    color: #3b5998;
+}
+
+.wrapper .twitter i {
+    color: #1da1f2;
+}
+
+.wrapper .linkedin i {
+    color: #0077b5;
+}
+
+.wrapper .instagram i {
+    color: #e4405f;
+}
+
+.wrapper .youtube i {
+    color: #ff0000;
+}
+
+.wrapper .github i {
+    color: #211f1f;
+}
+
+.wrapper .snapchat i {
+    color: #fffc00;
+}
+
+.wrapper .whatsapp i {
+    color: #25d366;
+}
+
+.wrapper .tiktok i {
+    color: #2c3e50;
+}
+
+.wrapper .pinterest i {
+    color: #bd081c;
+}
+
+.wrapper .reddit i {
+    color: #ff4500;
+}
+
+.wrapper .spotify i {
+    color: #1ed760;
+}
+
+.wrapper .discord i {
+    color: #5865f2;
+}
+
+.wrapper .icon:hover i {
+    color: #fff;
+}
+
+
+.wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 1rem;
+    background: #fff;
+    color: #fff;
+    padding: 5px, 8px;
+    border-radius: 5px;
+    opacity: 0;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .tooltip::before {
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip
+{
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before
+{
+    background: #3b5998;
+    color: #fff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before
+{
+    background: #1da1f2;
+    color: #fff;
+}
+
+.wrapper .linkedin:hover,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before
+{
+    background: #0077b5;
+    color: #fff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before
+{
+    background: #e4405f;
+    color: #fff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before
+{
+    background: #ff0000;
+    color: #fff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before
+{
+    background: #211f1f;
+    color: #fff;
+}
+
+.wrapper .snapchat:hover,
+.wrapper .snapchat:hover .tooltip,
+.wrapper .snapchat:hover .tooltip::before
+{
+    background: #fffc00;
+    color: #000;
+}
+
+.wrapper .whatsapp:hover,
+.wrapper .whatsapp:hover .tooltip,
+.wrapper .whatsapp:hover .tooltip::before
+{
+    background: #25d366;
+    color: #fff;
+}
+
+.wrapper .tiktok:hover,
+.wrapper .tiktok:hover .tooltip,
+.wrapper .tiktok:hover .tooltip::before
+{
+    background: #69c9d0;
+    color: #000;
+}
+
+.wrapper .pinterest:hover,
+.wrapper .pinterest:hover .tooltip,
+.wrapper .pinterest:hover .tooltip::before
+{
+    background: #bd081c;
+    color: #fff;
+}
+
+.wrapper .reddit:hover,
+.wrapper .reddit:hover .tooltip,
+.wrapper .reddit:hover .tooltip::before
+{
+    background: #ff4500;
+    color: #fff;
+}
+
+.wrapper .spotify:hover,
+.wrapper .spotify:hover .tooltip,
+.wrapper .spotify:hover .tooltip::before
+{
+    background: #1ed760;
+    color: #fff;
+}
+
+.wrapper .discord:hover,
+.wrapper .discord:hover .tooltip,
+.wrapper .discord:hover .tooltip::before
+{
+    background: #5865f2;
+    color: #fff;
+}
