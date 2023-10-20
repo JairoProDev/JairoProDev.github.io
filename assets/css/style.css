@@ -243,6 +243,7 @@ body.nav-active { overflow: hidden; }
   display: inline-block;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .btn {
