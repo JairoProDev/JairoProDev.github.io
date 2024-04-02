@@ -1,6 +1,6 @@
  - Perosonal Blog Website
 
-This is a blog html template made by codewithsadee
+This is a blog html template made by JairoSaulProDev
 
 
 
@@ -31,8 +31,8 @@ My Likes
 Account Setting
 Sign Out
 
-Copyright 2022 ©  - Personal Blog.
-Developed by codewithsadee
+Copyright 2024 ©  - Personal Blog.
+Developed by JairoSaulProDev
 
 Subscribe
 
@@ -255,7 +255,7 @@ placeholder = Emaill address
 Subscribe
 <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
 
-&copy; Developed by codewithsadee.
+&copy; Developed by JairoSaulProDev.
 
 <ion-icon name="logo-twitter"></ion-icon>
 Twitter

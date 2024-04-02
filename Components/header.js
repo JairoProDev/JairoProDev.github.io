@@ -149,15 +149,7 @@ class MiHeader extends HTMLElement {
     style.textContent = `
         /*-----------------------------------*\
         #style.css
-      \*-----------------------------------*/
-      
-      /**
-       * copyright 2022 codewithsadee
-       */
-      
-      
-      
-      
+      \*-----------------------------------*/      
       
       /*-----------------------------------*\
         #CUSTOM PROPERTY

@@ -122,7 +122,7 @@ class HeroSection extends HTMLElement {
       \*-----------------------------------*/
       
       /**
-       * copyright 2022 codewithsadee
+       * copyright 2024 JairoSaulProDev
        */
       
       
