@@ -1,0 +1,355 @@
+import React from 'react';
+import Link from 'next/link';
+
+const DeepEssays = () => {
+        return (
+                <section className="section feature" aria-label="feature" id="featured">
+                    <div className="container">
+                        <h2 className="headline headline-2 section-title">
+                            <span className="span">Deep Essays </span>
+                        </h2>
+
+                        <p className="section-text">My deep thoughts about:</p>
+
+                        <ul className="feature-list">
+                            <li>
+                                <div className="card feature-card">
+                                    <figure
+                                        className="card-banner img-holder"
+                                        style={{width: 1602, height: 903}}
+                                    >
+                                        <img
+                                            src="./assets/images/featured-1.png"
+                                            width="1602"
+                                            height="903"
+                                            loading="lazy"
+                                            alt="Self-observation is the first step of inner unfolding"
+                                            className="img-cover"
+                                        />
+                                    </figure>
+
+                                    <div className="card-content">
+                                        <div className="card-wrapper">
+                                            <div className="card-tag">
+                                                <Link href="#" className="span hover-2">#Travel</Link>
+
+                                                <Link href="#" className="span hover-2">#Lifestyle</Link>
+                                            </div>
+
+                                            <div className="wrapper">
+                                                <ion-icon
+                                                    name="time-outline"
+                                                    aria-hidden="true"
+                                                ></ion-icon>
+
+                                                <span className="span">3 mins read</span>
+                                            </div>
+                                        </div>
+
+                                        <h3 className="headline headline-3">
+                                            <Link href="#" className="card-title hover-2">
+                                                StartUp Ecosystem in LATAM
+                                            </Link>
+                                        </h3>
+
+                                        <div className="card-wrapper">
+                                            <div className="profile-card">
+                                                <img
+                                                    src="./assets/images/Jairo.png"
+                                                    width="48"
+                                                    height="48"
+                                                    loading="lazy"
+                                                    alt="Jairo S."
+                                                    className="profile-banner"
+                                                />
+
+                                                <div>
+                                                    <p className="card-title">Jairo S.</p>
+
+                                                    <p className="card-subtitle">5 Feb 2023</p>
+                                                </div>
+                                            </div>
+
+                                            <Link href="#" className="card-btn">Read more</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div className="card feature-card">
+                                    <figure
+                                        className="card-banner img-holder"
+                                        style={{width: 1602, height: 903}}
+                                    >
+                                        <img
+                                            src="./assets/images/featured-2.png"
+                                            width="1602"
+                                            height="903"
+                                            loading="lazy"
+                                            alt="Self-observation is the first step of inner unfolding"
+                                            className="img-cover"
+                                        />
+                                    </figure>
+
+                                    <div className="card-content">
+                                        <div className="card-wrapper">
+                                            <div className="card-tag">
+                                                <Link href="#" className="span hover-2">#Design</Link>
+
+                                                <Link href="#" className="span hover-2">#Movie</Link>
+                                            </div>
+
+                                            <div className="wrapper">
+                                                <ion-icon
+                                                    name="time-outline"
+                                                    aria-hidden="true"
+                                                ></ion-icon>
+
+                                                <span className="span">6 mins read</span>
+                                            </div>
+                                        </div>
+
+                                        <h3 className="headline headline-3">
+                                            <Link href="#" className="card-title hover-2">
+                                                The Future of Content Creation
+                                            </Link>
+                                        </h3>
+
+                                        <div className="card-wrapper">
+                                            <div className="profile-card">
+                                                <img
+                                                    src="./assets/images/Jairo.png"
+                                                    width="48"
+                                                    height="48"
+                                                    loading="lazy"
+                                                    alt="Jairo S."
+                                                    className="profile-banner"
+                                                />
+
+                                                <div>
+                                                    <p className="card-title">Jairo S.</p>
+
+                                                    <p className="card-subtitle">25 Nov 2022</p>
+                                                </div>
+                                            </div>
+
+                                            <Link href="#" className="card-btn">Read more</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div className="card feature-card">
+                                    <figure
+                                        className="card-banner img-holder"
+                                        style={{width: 1602, height: 903}}
+                                    >
+                                        <img
+                                            src="./assets/images/featured-3.png"
+                                            width="1602"
+                                            height="903"
+                                            loading="lazy"
+                                            alt="Self-observation is the first step of inner unfolding"
+                                            className="img-cover"
+                                        />
+                                    </figure>
+
+                                    <div className="card-content">
+                                        <div className="card-wrapper">
+                                            <div className="card-tag">
+                                                <Link href="#" className="span hover-2">#Design</Link>
+
+                                                <Link href="#" className="span hover-2">#Movie</Link>
+                                            </div>
+
+                                            <div className="wrapper">
+                                                <ion-icon
+                                                    name="time-outline"
+                                                    aria-hidden="true"
+                                                ></ion-icon>
+
+                                                <span className="span">6 mins read</span>
+                                            </div>
+                                        </div>
+
+                                        <h3 className="headline headline-3">
+                                            <Link href="#" className="card-title hover-2">
+                                                The most Dangerus problems of Education
+                                            </Link>
+                                        </h3>
+
+                                        <div className="card-wrapper">
+                                            <div className="profile-card">
+                                                <img
+                                                    src="./assets/images/Jairo.png"
+                                                    width="48"
+                                                    height="48"
+                                                    loading="lazy"
+                                                    alt="Jairo S."
+                                                    className="profile-banner"
+                                                />
+
+                                                <div>
+                                                    <p className="card-title">Jairo S.</p>
+
+                                                    <p className="card-subtitle">25 Nov 2022</p>
+                                                </div>
+                                            </div>
+
+                                            <Link href="#" className="card-btn">Read more</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div className="card feature-card">
+                                    <figure
+                                        className="card-banner img-holder"
+                                        style={{width: 1602, height: 903}}
+                                    >
+                                        <img
+                                            src="./assets/images/featured-4.png"
+                                            width="1602"
+                                            height="903"
+                                            loading="lazy"
+                                            alt="Self-observation is the first step of inner unfolding"
+                                            className="img-cover"
+                                        />
+                                    </figure>
+
+                                    <div className="card-content">
+                                        <div className="card-wrapper">
+                                            <div className="card-tag">
+                                                <Link href="#" className="span hover-2">#Design</Link>
+
+                                                <Link href="#" className="span hover-2">#Movie</Link>
+                                            </div>
+
+                                            <div className="wrapper">
+                                                <ion-icon
+                                                    name="time-outline"
+                                                    aria-hidden="true"
+                                                ></ion-icon>
+
+                                                <span className="span">6 mins read</span>
+                                            </div>
+                                        </div>
+
+                                        <h3 className="headline headline-3">
+                                            <Link href="#" className="card-title hover-2">
+                                                How to change the world one line of code at a time
+                                            </Link>
+                                        </h3>
+
+                                        <div className="card-wrapper">
+                                            <div className="profile-card">
+                                                <img
+                                                    src="./assets/images/Jairo.png"
+                                                    width="48"
+                                                    height="48"
+                                                    loading="lazy"
+                                                    alt="Jairo S."
+                                                    className="profile-banner"
+                                                />
+
+                                                <div>
+                                                    <p className="card-title">Jairo S.</p>
+
+                                                    <p className="card-subtitle">25 Nov 2022</p>
+                                                </div>
+                                            </div>
+
+                                            <Link href="#" className="card-btn">Read more</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div className="card feature-card">
+                                    <figure
+                                        className="card-banner img-holder"
+                                        style={{width: 1602, height: 903}}
+                                    >
+                                        <img
+                                            src="./assets/images/featured-5.png"
+                                            width="1602"
+                                            height="903"
+                                            loading="lazy"
+                                            alt="Self-observation is the first step of inner unfolding"
+                                            className="img-cover"
+                                        />
+                                    </figure>
+
+                                    <div className="card-content">
+                                        <div className="card-wrapper">
+                                            <div className="card-tag">
+                                                <Link href="#" className="span hover-2">#Design</Link>
+
+                                                <Link href="#" className="span hover-2">#Movie</Link>
+                                            </div>
+
+                                            <div className="wrapper">
+                                                <ion-icon
+                                                    name="time-outline"
+                                                    aria-hidden="true"
+                                                ></ion-icon>
+
+                                                <span className="span">6 mins read</span>
+                                            </div>
+                                        </div>
+
+                                        <h3 className="headline headline-3">
+                                            <Link href="#" className="card-title hover-2">
+                                                Learning myths that society believes
+                                            </Link>
+                                        </h3>
+
+                                        <div className="card-wrapper">
+                                            <div className="profile-card">
+                                                <img
+                                                    src="./assets/images/Jairo.png"
+                                                    width="48"
+                                                    height="48"
+                                                    loading="lazy"
+                                                    alt="Jairo S."
+                                                    className="profile-banner"
+                                                />
+
+                                                <div>
+                                                    <p className="card-title">Jairo S.</p>
+
+                                                    <p className="card-subtitle">25 Nov 2022</p>
+                                                </div>
+                                            </div>
+
+                                            <Link href="#" className="card-btn">Read more</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <Link href="#" className="btn btn-secondary">
+                            <span className="span">Show More Posts</span>
+
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </Link>
+                    </div>
+
+                    <img
+                        src="./assets/images/shadow-3.svg"
+                        width="500"
+                        height="1500"
+                        loading="lazy"
+                        alt=""
+                        className="feature-bg"
+                    />
+                </section>
+        );
+};
+
+export default DeepEssays;
