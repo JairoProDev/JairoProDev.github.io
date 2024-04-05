@@ -116,7 +116,7 @@ Ionicon
 --radius-8: 8px;
 --radius-16: 16px;
 --radius-48: 48px;
---radius-circle: 50%;
+--radius-circle: 50px;
 --radius-pill: 200px;
 ```
 
