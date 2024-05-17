@@ -3,13 +3,46 @@ document.addEventListener('DOMContentLoaded', function() {
     const slides = document.querySelectorAll('.slide');
     const totalSlides = slides.length;
 
-    document.getElementById('next').addEventListener('click', function() {
+    const nextButton = document.getElementById('next');
+    const prevButton = document.getElementById('prev');
+
+    nextButton.addEventListener('click', function() {
         changeSlide(1);
     });
 
-    document.getElementById('prev').addEventListener('click', function() {
+    prevButton.addEventListener('click', function() {
         changeSlide(-1);
     });
+
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'ArrowRight') {
+            changeSlide(1);
+        } else if (event.key === 'ArrowLeft') {
+            changeSlide(-1);
+        }
+    });
+
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    document.addEventListener('touchstart', function(event) {
+        touchStartX = event.touches[0].clientX;
+    });
+
+    document.addEventListener('touchend', function(event) {
+        touchEndX = event.changedTouches[0].clientX;
+        handleGesture();
+    });
+
+    function handleGesture() {
+        if (touchEndX < touchStartX) {
+            changeSlide(1); // Deslizar hacia la izquierda
+        }
+
+        if (touchEndX > touchStartX) {
+            changeSlide(-1); // Deslizar hacia la derecha
+        }
+    }
 
     function changeSlide(direction) {
         slides[currentSlide].classList.remove('active');
