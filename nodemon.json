@@ -1,5 +1,0 @@
-{
-    "watch": ["*.ejs"],
-    "ext": "ejs",
-    "exec": "node generate.js"
-}
