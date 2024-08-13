@@ -19,51 +19,51 @@
 
   --bg-gradient-onyx: linear-gradient(
     to bottom right,
-    hsl(240, 1%, 25%) 3%,
-    hsl(0, 0%, 19%) 97%
+    #192734 3%, /* Azul oscuro más claro */
+    #0b0f14 97% /* Negro suave */
   );
   --bg-gradient-jet: linear-gradient(
       to bottom right,
-      hsla(240, 1%, 18%, 0.251) 0%,
-      hsla(240, 2%, 11%, 0) 100%
+      rgba(25, 39, 52, 0.251) 0%, /* Ajuste en la opacidad */
+      rgba(11, 15, 20, 0) 100%
     ),
-    hsl(240, 2%, 13%);
+    #192734;
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right,
-    hsl(45, 100%, 71%) 0%,
-    hsla(36, 100%, 69%, 0) 50%
+    #C38EB4 0%, /* Mantén este color pero ajusta si es necesario */
+    rgba(193, 138, 180, 0) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
       135deg,
-      hsla(45, 100%, 71%, 0.251) 0%,
-      hsla(35, 100%, 68%, 0) 59.86%
+      rgba(193, 138, 180, 0.251) 0%,
+      rgba(129, 200, 215, 0) 59.86%
     ),
-    hsl(240, 2%, 13%);
+    #192734;
   --border-gradient-onyx: linear-gradient(
     to bottom right,
-    hsl(0, 0%, 25%) 0%,
-    hsla(0, 0%, 25%, 0) 50%
+    #26425A 0%,
+    rgba(38, 66, 90, 0) 50%
   );
   --text-gradient-yellow: linear-gradient(
     to right,
-    hsl(45, 100%, 72%),
-    hsl(35, 100%, 68%)
+    #C38EB4, /* Revisa este color */
+    #E1C8D7 /* Puede ajustarse a un tono más oscuro si es necesario */
   );
 
   /* solid */
 
-  --jet: hsl(0, 0%, 22%);
-  --onyx: hsl(240, 1%, 17%);
-  --eerie-black-1: hsl(240, 2%, 13%);
-  --eerie-black-2: hsl(240, 2%, 12%);
-  --smoky-black: hsl(0, 0%, 7%);
-  --white-1: hsl(0, 0%, 100%);
-  --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
-  --vegas-gold: hsl(45, 54%, 58%);
-  --light-gray: hsl(0, 0%, 84%);
-  --light-gray-70: hsla(0, 0%, 84%, 0.7);
-  --bittersweet-shimmer: hsl(0, 43%, 51%);
+  --jet: #192734; /* Color más oscuro para el fondo principal */
+  --onyx: #0b0f14; /* Negro suave */
+  --eerie-black-1: #192734; /* Color de texto oscuro */
+  --eerie-black-2: #0b0f14;
+  --smoky-black: #0b0f14;
+  --white-1: #E1C8D7; /* Ajuste a gris claro */
+  --white-2: #d1d5db; /* Otro tono de gris claro */
+  --orange-yellow-crayola: #C38EB4;
+  --vegas-gold: #86A8CF;
+  --light-gray: #d1d5db; /* Ajuste a un tono más oscuro */
+  --light-gray-70: rgba(209, 213, 219, 0.7); /* Ajuste en opacidad */
+  --bittersweet-shimmer: #C38EB4;
 
   /**
    * typography
@@ -92,11 +92,11 @@
    * shadow
    */
 
-  --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
-  --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
-  --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
-  --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
-  --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
+  --shadow-1: -4px 8px 24px rgba(0, 2, 31, 0.25);
+  --shadow-2: 0 16px 30px rgba(0, 2, 31, 0.25);
+  --shadow-3: 0 16px 40px rgba(0, 2, 31, 0.25);
+  --shadow-4: 0 25px 50px rgba(0, 2, 31, 0.15);
+  --shadow-5: 0 24px 80px rgba(0, 2, 31, 0.25);
 
   /**
    * transition
