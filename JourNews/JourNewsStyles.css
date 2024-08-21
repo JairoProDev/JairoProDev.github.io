@@ -155,16 +155,32 @@ h3 {
     color: #dddddd; /* Gris claro */
     animation: slideInRight 1.5s ease;
 }
+.impact-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Ajustar columnas para que entren más elementos */
+    gap: 1rem; /* Reducir el espacio entre los elementos */
+}
 
 .info-block {
-    background-color: rgba(255, 255, 255, 0.1); /* Blanco translúcido */
-    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1rem; /* Reducir el padding para hacer los bloques más compactos */
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     animation: fadeIn 2s ease;
     color: #f1f1f1;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem; /* Reducir el margen inferior */
+    text-align: center; /* Centramos el contenido para mejorar la estética */
 }
+
+.impact-stats h3 {
+    font-size: 1.5rem; /* Reducir el tamaño del texto del encabezado */
+    margin-bottom: 0.5rem;
+}
+
+.impact-stats p {
+    font-size: 1rem; /* Reducir el tamaño del texto del párrafo */
+}
+
 
 .features-grid,
 .stats-grid,
