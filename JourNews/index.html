@@ -4,33 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JourNews - La Plataforma que Redefinirá el Acceso a la Información Verificada</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./JourNewsStyles.css">
 </head>
 <body>
     <!-- Header Section -->
     <header class="hero-section">
         <div class="hero-overlay">
-            <h1>JourNews</h1>
-            <p>La Plataforma que Redefine el Acceso a la Información Verificada</p>
-            <a href="#about" class="cta-button">Explorar la Idea</a>
+            <div class="hero-content">
+                <h1>JourNews</h1>
+                <p>Redefiniendo el acceso a la información verificada con inteligencia artificial</p>
+                <a href="#about" class="cta-button">Explorar la Idea</a>
+            </div>
+            <div class="hero-graphics">
+                <img src="./images/tech-background.svg" alt="Tecnología y redes" class="hero-image">
+            </div>
         </div>
     </header>
+    
+
+    <!-- Vision and Mission Section -->
+    <section id="vision" class="section">
+        <div class="container">
+            <h2>Visión y Misión</h2>
+            <p><strong>Visión:</strong> Ser la plataforma líder a nivel global en la lucha contra la desinformación, utilizando la inteligencia artificial para garantizar la autenticidad de la información y empoderar a periodistas y ciudadanos en la era digital.</p>
+            <p><strong>Misión:</strong> JourNews tiene como misión democratizar el acceso a noticias verificadas, proporcionando a la población global una herramienta que permita distinguir la verdad de la ficción, y al mismo tiempo, brindando a los creadores de contenido las herramientas necesarias para difundir y monetizar información auténtica.</p>
+        </div>
+    </section>
 
     <!-- Problem Section -->
-    <section id="about" class="section">
+    <section id="about" class="section light-bg">
         <div class="container">
             <h2>La Crisis de la Desinformación</h2>
-            <p>La desinformación y las noticias falsas se han convertido en amenazas globales, distorsionando la verdad y debilitando la confianza en los medios. JourNews surge como la solución para combatir este problema global a través de inteligencia artificial avanzada.</p>
-            <img src="./images/crisis-desinformacion.jpg" width="450px"  alt="Impacto de la Desinformación">
-            <img src="./images/crisis-desinformacion2.jpg" width="450px"  alt="Impacto de la Desinformación">
-
-        
+            <p>La desinformación se ha convertido en una de las mayores amenazas de nuestra era, distorsionando la verdad y debilitando la confianza en los medios de comunicación. JourNews surge como una respuesta a este desafío global, utilizando inteligencia artificial avanzada para combatir la desinformación en tiempo real.</p>
+            <div class="image-grid">
+                <img src="./images/crisis-desinformacion.jpg" alt="Impacto de la Desinformación">
+                <img src="./images/crisis-desinformacion2.jpg" alt="Impacto de la Desinformación">
+            </div>
         </div>
     </section>
 
     <!-- Solution Section -->
-    <section class="section light-bg">
+    <section class="section">
         <div class="container">
             <h2>Qué es JourNews</h2>
             <p>JourNews es una plataforma democratizada de noticias que utiliza algoritmos de inteligencia artificial para verificar la autenticidad de las noticias en tiempo real, contrastando la información entre medios oficiales e independientes. Es un espacio seguro donde los periodistas pueden compartir sus reportajes y la población global puede confiar en la información que consume.</p>
@@ -39,6 +54,23 @@
                 <li>Herramientas para periodistas y creadores de contenido</li>
                 <li>Monetización de contenido</li>
             </ul>
+            <div class="video-container">
+                <!-- <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="JourNews Demo" allowfullscreen></iframe> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="section light-bg">
+        <div class="container">
+            <h2>Tecnología de JourNews</h2>
+            <p>JourNews utiliza redes neuronales entrenadas para analizar y verificar noticias en tiempo real. La plataforma contrasta la información entre diversas fuentes, tanto oficiales como independientes, para garantizar la autenticidad de las noticias. Además, implementa algoritmos de detección de fraude que detectan patrones sospechosos en las noticias y alertan a los usuarios sobre posibles desinformaciones.</p>
+            <div class="tech-details">
+                <h3>Algoritmos y Redes Neuronales</h3>
+                <p>Nuestra tecnología se basa en redes neuronales convolucionales (CNN) y técnicas de procesamiento de lenguaje natural (NLP) para analizar y clasificar el contenido de las noticias.</p>
+                <h3>Seguridad y Blockchain</h3>
+                <p>Utilizamos tecnología blockchain para garantizar la transparencia en la verificación de noticias y la autenticidad de los reportajes compartidos en la plataforma.</p>
+            </div>
         </div>
     </section>
 
@@ -61,14 +93,35 @@
                 </div>
                 <div class="step">
                     <h3>Paso 4</h3>
-                    <p>Opción de compartir o monetizar el contenido verificado.</p>
+                    <p>Opción de compartir el contenido verificado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data and Impact Section -->
+    <section id="impact" class="section light-bg">
+        <div class="container">
+            <h2>Impacto y Datos</h2>
+            <div class="impact-stats">
+                <div class="stat">
+                    <h3>X%</h3>
+                    <p>De los usuarios confirman que la verificación en tiempo real mejora su confianza en las noticias.</p>
+                </div>
+                <div class="stat">
+                    <h3>Y+</h3>
+                    <p>Noticias verificadas en los primeros 6 meses.</p>
+                </div>
+                <div class="stat">
+                    <h3>Z%</h3>
+                    <p>De los periodistas independientes han monetizado su contenido en JourNews.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Impact and ODS Section -->
-    <section class="section light-bg">
+    <section class="section">
         <div class="container">
             <h2>Impacto Global y ODS</h2>
             <p>JourNews contribuye a varios Objetivos de Desarrollo Sostenible (ODS), promoviendo la paz, justicia, igualdad en el acceso a la información y la innovación tecnológica en el periodismo.</p>
@@ -94,7 +147,7 @@
     </section>
 
     <!-- Call to Action Section -->
-    <section class="section">
+    <section class="section light-bg">
         <div class="container">
             <h2>Únete a Nosotros</h2>
             <p>Estamos buscando colaboradores que compartan nuestra visión de un mundo más informado y justo. Si eres un inversor, periodista, desarrollador, o una organización interesada en aliarte con nosotros, ¡queremos escucharte!</p>
