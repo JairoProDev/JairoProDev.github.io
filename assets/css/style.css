@@ -796,15 +796,18 @@ main {
 }
 
 .clients-item {
-  min-width: 50%;
+  min-width: 5%;
   scroll-snap-align: start;
 }
-
-.clients-item img {
+.clients-item p {
+  color: #C38EB4;
+;
+}
+/* .clients-item img {
   width: 100%;
   filter: grayscale(1);
   transition: var(--transition-1);
-}
+} */
 
 .clients-item img:hover {
   filter: grayscale(0);
@@ -1595,7 +1598,7 @@ textarea.form-input::-webkit-resizer {
   /* clients */
 
   .clients-list {
-    gap: 50px;
+    gap: 25px;
     margin: 0 -30px;
     padding: 45px;
     scroll-padding-inline: 45px;
